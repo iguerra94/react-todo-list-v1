@@ -3,6 +3,32 @@ p {
   font-family: Lato;
 }
 
-.ml-2 {
-  margin-left: 1rem;
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+ul.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 250px;
 }
